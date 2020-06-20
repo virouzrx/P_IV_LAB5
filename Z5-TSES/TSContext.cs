@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Z5_TSES
 {
-    public class TSContext :DbContext
+    public class TSContext : DbContext
     {
         public DbSet<ComputerTS> Computers { get; set; }
         public DbSet<Server> Servers { get; set; }
